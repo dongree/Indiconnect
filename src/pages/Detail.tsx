@@ -6,7 +6,7 @@ import CirclesX from '../components/circles_x/circles_x';
 
 export default function Detail() {
   return (
-    <section>
+    <section className={styles.container}>
       <Header text="스페이스 한강 " />
       <div className={styles.main_img}>
         <img src="/img/music_hall.png" alt="" />
@@ -79,6 +79,9 @@ export default function Detail() {
           </div>
         </div>
       </main>
+      <div className={styles.applyBtn}>
+        <p>신청하기</p>
+      </div>
     </section>
   );
 }
