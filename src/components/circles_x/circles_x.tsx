@@ -7,8 +7,8 @@ export default function CirclesX() {
 
   return (
     <div className={styles.container}>
-      {data.map(text => (
-        <Circle text={text} />
+      {data.map((text, index) => (
+        <Circle text={text} key={index} />
       ))}
     </div>
   );

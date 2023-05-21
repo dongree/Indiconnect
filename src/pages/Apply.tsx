@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Apply.module.css';
 import Header from '../components/header/header';
 import TitleTemplate from '../components/title_template/title_template';
+import { Link } from 'react-router-dom';
 
 export default function Apply() {
   return (
@@ -39,9 +40,10 @@ export default function Apply() {
           </TitleTemplate>
         </div>
         <div className={styles.fixBtn}>뮤지션 정보 수정</div>
-        <div className={styles.payBtn}>
+
+        <Link to="/pay" className={styles.payBtn}>
           <p>결제하기</p>
-        </div>
+        </Link>
       </div>
     </section>
   );

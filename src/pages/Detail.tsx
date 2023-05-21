@@ -1,8 +1,9 @@
 import React from 'react';
 import Header from '../components/header/header';
 import styles from './Detail.module.css';
-import ArrowupTitle from '../components/arrowup_title/arrowup_title';
 import CirclesX from '../components/circles_x/circles_x';
+import ArrowupContents from '../components/arrowup_contents/arrowup_contents';
+import { Link } from 'react-router-dom';
 
 export default function Detail() {
   return (
@@ -42,46 +43,43 @@ export default function Detail() {
           </div>
         </div>
         <div className={styles.detail_info}>
-          <div style={{ margin: '10px 0' }}>
-            <ArrowupTitle text="공연 안내 사항" />
-            <p className={styles.description}>
+          <ArrowupContents text="공연 안내 사항">
+            <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
               rerum harum molestias, perspiciatis dolor amet recusandae
               consequuntur atque aperiam voluptates distinctio enim repellendus
               earum. Tempore voluptatum quia voluptates. Quas, dolorem.
             </p>
-          </div>
-          <div style={{ margin: '10px 0' }}>
-            <ArrowupTitle text="공간 소개" />
-            <p className={styles.description}>
+          </ArrowupContents>
+          <ArrowupContents text="공간 소개">
+            <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
               rerum harum molestias, perspiciatis dolor amet recusandae
               consequuntur atque aperiam voluptates distinctio enim repellendus
               earum. Tempore voluptatum quia voluptates. Quas, dolorem.
             </p>
-          </div>
-          <div style={{ margin: '10px 0' }}>
-            <ArrowupTitle text="취소 및 환불 규정" />
-            <p className={styles.description}>
+          </ArrowupContents>
+          <ArrowupContents text="취소 환불 및 규정">
+            <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
               rerum harum molestias, perspiciatis dolor amet recusandae
               consequuntur atque aperiam voluptates distinctio enim repellendus
               earum. Tempore voluptatum quia voluptates. Quas, dolorem.
             </p>
-          </div>
-          <div style={{ margin: '10px 0' }}>
-            <ArrowupTitle text="편의 서비스" />
+          </ArrowupContents>
+
+          <ArrowupContents text="편의 서비스">
             <CirclesX />
-          </div>
-          <div style={{ margin: '10px 0' }}>
-            <ArrowupTitle text="공연 장비" />
+          </ArrowupContents>
+
+          <ArrowupContents text="공연 장비">
             <CirclesX />
-          </div>
+          </ArrowupContents>
         </div>
       </main>
-      <div className={styles.applyBtn}>
+      <Link to="/apply" className={styles.applyBtn}>
         <p>신청하기</p>
-      </div>
+      </Link>
     </section>
   );
 }
