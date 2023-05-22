@@ -9,15 +9,15 @@ export default function Pay() {
   return (
     <section className={styles.container}>
       <div className={styles.show_type}>기획 공연</div>
-      <p className={styles.show_name}>스페이스 한강</p>
+      <p className={styles.show_name}>UNPLUGGED ‘OPENSTAGE’</p>
       <div className={styles.sub_container}>
-        <p className={styles.period}>05월 14일까지 모집</p>
+        <p className={styles.period}>06월 22일까지 모집</p>
         <p className={styles.people_num}>3/4팀 모집 완료</p>
       </div>
       <div className={styles.main_container}>
         <div className={styles.box}>
-          <TitleTemplate title="공연 날짜">2023년 05월 16일</TitleTemplate>
-          <TitleTemplate title="공연 시간">16 - 20시, 4시간</TitleTemplate>
+          <TitleTemplate title="공연 날짜">2023년 06월 22일</TitleTemplate>
+          <TitleTemplate title="공연 시간">20-21시 40분</TitleTemplate>
         </div>
         <TitleTemplate title="희망 공연 순서">
           <div className={styles.box2}>
@@ -46,15 +46,15 @@ export default function Pay() {
         </TitleTemplate>
 
         <TitleTemplate title="예약자 정보">
-          <p>신지훈</p>
+          <p>OOO</p>
           <p>010-0000-0000</p>
         </TitleTemplate>
       </div>
       <div className={styles.main_container2}>
         <ArrowupContents text="결제 정보">
           <div className={styles.box3}>
-            <p>예약 금액</p>
-            <p>100000원</p>
+            <p>참가비</p>
+            <p>100,000원</p>
           </div>
         </ArrowupContents>
         <ArrowupContents text="결제 수단">
@@ -67,16 +67,8 @@ export default function Pay() {
         </ArrowupContents>
         <ArrowupContents text="취소 및 환불 규정">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            rerum harum molestias, perspiciatis dolor amet recusandae
-            consequuntur atque aperiam voluptates distinctio enim repellendus
-            earum. Tempore voluptatum quia voluptates. Quas, dolorem.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            rerum harum molestias, perspiciatis dolor amet recusandae
-            consequuntur atque aperiam voluptates distinctio enim repellendus
-            earum. Tempore voluptatum quia voluptates. Quas, dolorem.
+            공연 공지 업로드 후 뮤지션 개인 사정으로 인해 참여를 못하게 될 경우
+            참가비는 환불 불가능합니다.
           </p>
         </ArrowupContents>
       </div>
