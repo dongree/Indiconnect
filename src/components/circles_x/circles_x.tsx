@@ -2,13 +2,20 @@ import React from 'react';
 import Circle from '../circle/circle';
 import styles from './circles_x.module.css';
 
-export default function CirclesX() {
-  const data = ['Lorem', 'Lorem', 'Lorem', 'Lorem', 'Lorem', 'Lorem'];
+type Props = {
+  data: Item[];
+};
 
+type Item = {
+  img: string;
+  text: string;
+};
+
+export default function CirclesX({ data }: Props) {
   return (
     <div className={styles.container}>
-      {data.map((text, index) => (
-        <Circle text={text} key={index} />
+      {data.map((item, index) => (
+        <Circle {...item} key={index} />
       ))}
     </div>
   );
