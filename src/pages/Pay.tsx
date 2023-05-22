@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './Pay.module.css';
 import TitleTemplate from '../components/title_template/title_template';
 import ArrowupContents from '../components/arrowup_contents/arrowup_contents';
+import { Link } from 'react-router-dom';
 
 export default function Pay() {
   const [order, setOrder] = useState(1);
@@ -72,6 +73,9 @@ export default function Pay() {
           </p>
         </ArrowupContents>
       </div>
+      <Link to="/success" className={styles.successBtn}>
+        <p>신청 완료</p>
+      </Link>
     </section>
   );
 }
