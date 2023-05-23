@@ -8,6 +8,9 @@ import ACTlist from './pages/ACTlist';
 import RCUlist from './pages/RCUlist';
 import Actimp from './pages/Actimp';
 import RCUlist1 from './pages/RCUlist1';
+import Apply from './pages/Apply';
+import Pay from './pages/Pay';
+import Success from './pages/Success';
 
 const router = createBrowserRouter([
   { path: '/', element: <Home /> },
@@ -17,6 +20,9 @@ const router = createBrowserRouter([
   { path: '/applist1', element: <RCUlist /> },
   { path: '/applist2', element: <RCUlist1 /> },
   { path: '/info', element: <Actimp /> },
+  { path: '/apply', element: <Apply /> },
+  { path: '/pay', element: <Pay /> },
+  { path: '/success', element: <Success /> },
 ]);
 
 function App() {
