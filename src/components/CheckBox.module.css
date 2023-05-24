@@ -1,29 +1,29 @@
-.check_container{
-    display: flex;
-    align-items: center;
+.check_container {
+  display: flex;
+  align-items: center;
 }
 
-.check_container input{
-    background: #fff;
-    border-color: #676A72;
+.check_container input {
+  background: #fff;
+  border-color: #676a72;
 }
-.check_container input[type="checkbox"]:checked {
-    accent-color:#E53A40;
-  }
-.text{
-    font-size: 12px;
-    font-weight: 500;
-    font-family: 'Pretendard';
-    font-style: normal;
-    letter-spacing: -0.03em;
-    color: #676A72;
+.check_container input[type='checkbox']:checked {
+  accent-color: #e53a40;
+}
+.text {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Pretendard';
+  font-style: normal;
+  letter-spacing: -0.03em;
+  color: #676a72;
 }
 
-.text_red{
-    font-size: 12px;
-    font-weight: 500;
-    font-family: 'Pretendard';
-    font-style: normal;
-    letter-spacing: -0.03em;
-    color: #E53A40;
+.text_red {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Pretendard';
+  font-style: normal;
+  letter-spacing: -0.03em;
+  color: #e53a40;
 }
