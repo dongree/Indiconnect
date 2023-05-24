@@ -36,8 +36,8 @@ export default function RCUlist1() {
                 <div style={{ borderTop: '1px solid #CCCFD4', marginTop: '10px' }}></div>
             </div>
             <div>
-                <div style={{ display: 'flex', marginTop: '20px' }}>
-                    <div className='imgimg' style={{ marginLeft: '20px' }}>
+                <div style={{ display: 'flex', marginTop: '20px', justifyContent:'center' }}>
+                    <div className='imgimg'>
                         <img src={imagessss} alt='space' />
                     </div>
                     <div className='space-title' style={{ marginLeft: '10px' }}>
@@ -55,8 +55,8 @@ export default function RCUlist1() {
             </div>
             <div style={{ borderTop: '1px solid #CCCFD4', marginTop: '10px' }}></div>
             <div>
-                <div style={{ display: 'flex', marginTop: '20px' }}>
-                    <div className='imgimg' style={{ marginLeft: '20px' }}>
+                <div style={{ display: 'flex', marginTop: '20px', justifyContent:'center' }}>
+                    <div className='imgimg'>
                         <img src={imagess} alt='space' />
                     </div>
                     <div className='space-title' style={{ marginLeft: '10px' }}>
@@ -71,8 +71,8 @@ export default function RCUlist1() {
             </div>
             <div style={{ borderTop: '1px solid #CCCFD4', marginTop: '10px' }}></div>
             <div>
-                <div style={{ display: 'flex', marginTop: '20px' }}>
-                    <div className='imgimg' style={{ marginLeft: '20px' }}>
+                <div style={{ display: 'flex', marginTop: '20px', justifyContent:'center' }}>
+                    <div className='imgimg'>
                         <img src={imagesss} alt='space' />
                     </div>
                     <div className='space-title' style={{ marginLeft: '10px' }}>

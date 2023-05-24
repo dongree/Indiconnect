@@ -9,9 +9,11 @@ export default function Detail() {
   return (
     <section className={styles.container}>
       <Header text="언플러그드 홍대점" />
-      <div className={styles.main_img}>
-        <img src="/img/unpluged_hall.png" alt="" />
-      </div>
+      <img
+        className={styles.main_img}
+        src="/img/unpluged_hall.png"
+        alt="unluged_hall"
+      />
       <main className={styles.main}>
         <div className={styles.main_info}>
           <div className={styles.main_info_1}>
