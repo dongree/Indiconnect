@@ -4,6 +4,7 @@ import x from '../asset/images/x 1.png';
 import icon from '../asset/images/icon 2.png';
 import card1 from '../asset/images/card.png';
 import { Link } from 'react-router-dom';
+import { text } from 'stream/consumers';
 interface Props {
   className?: string;
   status?: boolean;
@@ -19,10 +20,21 @@ let year = now.getFullYear(),
 
 const ChatBot: React.FC<Props> = ({ onChange }) => {
   const [visible, setVisible] = useState(true);
+  const [textvisible, setTextvisible] = useState(false);
+  const [text, setText] = useState('');
   // const ()=>onChange(!visible) = () => {
   //   setVisible(!visible);
   // };
   // console.log(visible);
+  const submitHandler = (e: any) => {
+    console.log(textvisible)
+    e.preventDefault();
+    setTextvisible(!textvisible)
+    setText("");
+  }
+  const textHandler = (e: any) => {
+    setText(e.currentTarget.value)
+  }
   return (
     <div
       className={styles.wrapper}
@@ -56,7 +68,7 @@ const ChatBot: React.FC<Props> = ({ onChange }) => {
             <div>어떤 도움이 필요하신가요?</div>
           </div>
         </div>
-        <div className={styles.chat_right}>
+        <div className={styles.chat_right} style={{ visibility: textvisible ? 'visible' : 'hidden' }}>
           <div
             className={styles.chatbox}
             style={{
@@ -72,7 +84,7 @@ const ChatBot: React.FC<Props> = ({ onChange }) => {
             </div>
           </div>
         </div>
-        <div className={styles.chat_left}>
+        <div className={styles.chat_left} style={{ visibility: textvisible ? 'visible' : 'hidden' }}>
           <div
             style={{
               marginTop: 12,
@@ -94,7 +106,7 @@ const ChatBot: React.FC<Props> = ({ onChange }) => {
           </div>
         </div>
 
-        <div className={styles.chat_right}>
+        <div className={styles.chat_right} style={{ visibility: textvisible ? 'visible' : 'hidden' }}>
           <Link to="/detail">
             <img
               src={card1}
@@ -119,7 +131,9 @@ const ChatBot: React.FC<Props> = ({ onChange }) => {
           verticalAlign: 'middle',
         }}
       >
-        <input type="text" style={{ height: '100%', width: '100%' }} />
+        <form onSubmit={submitHandler} >
+          <input type="text" style={{ height: '41px', width: '342px' }} value={text} onChange={textHandler} />
+        </form>
       </div>
     </div>
   );
