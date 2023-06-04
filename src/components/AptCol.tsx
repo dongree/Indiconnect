@@ -9,13 +9,6 @@ export default function AptCol() {
         setIsOpen(!isOpen);
     }
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setIsOpen(!isOpen);
-        }, 1000);
-
-        return () => clearTimeout(timer);
-    }, []);
     return (
         <div onClick={openModal}>
             {isOpen && (

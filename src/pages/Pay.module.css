@@ -1,0 +1,105 @@
+.container {
+  padding: 1rem;
+  margin-bottom: 50px;
+}
+
+.show_type {
+  font-size: 0.75rem;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.show_name {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.sub_container {
+  display: flex;
+  font-size: 0.75rem;
+  margin: 0.5rem 0;
+}
+
+.period {
+  border-right: 1px solid gray;
+  padding-right: 8px;
+  margin-right: 8px;
+}
+
+.main_container {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box2 {
+  display: flex;
+  margin-top: 5px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+.order {
+  margin: 0 10px;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 5px;
+  outline: none;
+  font-size: 0.75rem;
+}
+
+.box3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.payType {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.successBtn {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 16px 0;
+  cursor: pointer;
+}

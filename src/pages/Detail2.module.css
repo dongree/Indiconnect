@@ -1,0 +1,81 @@
+/* .conatiner {
+  
+} */
+
+.backBtn {
+  margin-bottom: 10px;
+}
+.container2 {
+  background-image: url('/public/img/detail2_bg.png');
+  background-size: cover;
+  padding: 16px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+}
+
+.infos {
+  color: white;
+  margin-left: 14px;
+}
+
+.redBtn {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  font-size: 10px;
+  border-radius: 20px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.sub {
+  font-size: 12px;
+}
+
+.container4 {
+  margin: 16px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid gray;
+  padding: 8px 12px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.btn {
+  font-size: 10px;
+  border: 1px solid gray;
+  padding: 3px;
+  cursor: pointers;
+}
+
+.container5 {
+  border-top: 1px solid gray;
+  padding: 0px 16px;
+  margin-bottom: 50px;
+}
+
+.applyBtn {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 16px 0;
+  cursor: pointer;
+}

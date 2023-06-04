@@ -83,8 +83,9 @@ nav>div {
 .modal-overlay {
     display: flex;
     position: absolute;
-    top: -80%;
-    left: 7%;
+    top:-100%;
+    left:50%;
+    transform:translate(-50%, -50%);
     justify-content: center;
     width: 300px;
     height: 231px;
