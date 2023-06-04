@@ -8,6 +8,10 @@ import ACTlist from './pages/ACTlist';
 import RCUlist from './pages/RCUlist';
 import Actimp from './pages/Actimp';
 import RCUlist1 from './pages/RCUlist1';
+import GeneUser from './pages/GeneUser';
+import Pickmusi from './pages/Pickmusi';
+import Themap from './pages/Themap';
+import Keyword from './pages/Keyword';
 
 const router = createBrowserRouter([
   { path: '/', element: <Home /> },
@@ -17,6 +21,10 @@ const router = createBrowserRouter([
   { path: '/applist1', element: <RCUlist /> },
   { path: '/applist2', element: <RCUlist1 /> },
   { path: '/info', element: <Actimp /> },
+  { path: '/geneuser', element: <GeneUser/>},
+  { path: '/pickmusi', element: <Pickmusi/>},
+  { path: '/tema', element: <Themap/>},
+  { path: '/keyword', element: <Keyword/>},
 ]);
 
 function App() {
