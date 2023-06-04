@@ -11,6 +11,7 @@ import RCUlist1 from './pages/RCUlist1';
 import Apply from './pages/Apply';
 import Pay from './pages/Pay';
 import Success from './pages/Success';
+import Detail2 from './pages/Detail2';
 
 const router = createBrowserRouter([
   { path: '/', element: <Home /> },
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
   { path: '/apply', element: <Apply /> },
   { path: '/pay', element: <Pay /> },
   { path: '/success', element: <Success /> },
+  { path: '/detail2', element: <Detail2 /> },
 ]);
 
 function App() {
