@@ -24,9 +24,10 @@ const router = createBrowserRouter([
   { path: '/info', element: <Actimp /> },
   { path: '/apply', element: <Apply /> },
   { path: '/pay', element: <Pay /> },
-  { path: '/success', element: <Success /> },
+  { path: '/success', element: <Success text="참가 신청 완료!" /> },
   { path: '/detail2', element: <Detail2 /> },
   { path: '/pay2', element: <Pay2 /> },
+  { path: '/success2', element: <Success text="공연 예매 완료!" /> },
 ]);
 
 function App() {
