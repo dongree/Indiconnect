@@ -12,6 +12,7 @@ import Apply from './pages/Apply';
 import Pay from './pages/Pay';
 import Success from './pages/Success';
 import Detail2 from './pages/Detail2';
+import Pay2 from './pages/Pay2';
 
 const router = createBrowserRouter([
   { path: '/', element: <Home /> },
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
   { path: '/pay', element: <Pay /> },
   { path: '/success', element: <Success /> },
   { path: '/detail2', element: <Detail2 /> },
+  { path: '/pay2', element: <Pay2 /> },
 ]);
 
 function App() {
