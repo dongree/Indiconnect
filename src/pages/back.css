@@ -1,0 +1,7 @@
+.background {
+    background-image: url(/src/images/backgr.png);
+    position: relative; /* 핵심코드 */
+    width: 100%;
+    height: 845px;
+    display: inline-block;
+}
