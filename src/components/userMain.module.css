@@ -1,6 +1,39 @@
-.map {
-  width: 100%;
-  height: 100%;
+.div_container {
+  border-bottom: 1px solid gray;
+}
+.div_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.div_header text {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 23px;
+}
+.div1_imgcontainer {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 24px;
+  border-bottom-color: gray;
+  border-bottom-width: 1px;
+}
+.div2_imgcontainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 24px;
+  border-bottom-color: gray;
+  border-bottom-width: 1px;
+}
+.div1_imgcontainer img {
+  margin-left: 16px;
+}
+.div2_imgcontainer img {
+  margin-left: 16px;
+  margin-bottom: 20px;
 }
 .checkbox_container {
   display: flex;
