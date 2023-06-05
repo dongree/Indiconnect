@@ -34,13 +34,20 @@
 }
 .modal_open {
   position: absolute;
+  width: 100%;
   left: 0px;
-  top: calc(100% - 130px);
+  top: calc(100% - 271px);
   z-index: 1;
+}
+.modal_open text {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
 }
 .modal_close {
   display: none;
   left: 0px;
-  top: calc(100% - 130px);
+  top: calc(100% - 500px);
   z-index: 1;
 }
