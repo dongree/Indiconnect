@@ -12,7 +12,7 @@ export default function Home() {
   };
   return (
     <div className={styles.container}>
-      <HomeHeader className={'header'} />
+      <HomeHeader />
       <Map className="usermap" onChange={ChangeStatus} />
       <Footer />
       {visible ? <ChatBot onChange={ChangeStatus} /> : null}

@@ -1,12 +1,16 @@
 .footer {
-  position: absolute;
-  background-color: black;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
   display: flex;
   justify-content: space-between;
-  width: 100%;
   height: 10%;
   align-items: center;
-  bottom: 0;
+  background-color: black;
+  color: white;
+  padding: 16px 0;
+  cursor: pointer;
 }
 .footer text {
   color: white;

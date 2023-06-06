@@ -41,7 +41,7 @@ export default function Home2() {
             </h4>
             <h4
               style={{
-                fontSize: '12px',
+                fontSize: '11px',
                 height: '21px',
                 marginTop: '-10px',
                 fontWeight: '400',
@@ -101,10 +101,8 @@ export default function Home2() {
             <div style={{ textDecoration: 'none', color: 'black' }}>
               <h3
                 style={{
-                  fontSize: '18px',
-                  height: '21px',
-                  marginTop: '5px',
-                  marginLeft: '10px',
+                  fontSize: '14px',
+                  margin: '10px',
                 }}
               >
                 UNPLUGGED 'OPENSTAG..
@@ -113,7 +111,6 @@ export default function Home2() {
                 style={{
                   fontSize: '12px',
                   height: '14px',
-                  marginTop: '-10px',
                   marginLeft: '10px',
                 }}
               >
@@ -125,23 +122,13 @@ export default function Home2() {
               <h4
                 style={{
                   fontSize: '12px',
-                  height: '21px',
                   marginTop: '-10px',
                   fontWeight: '400',
                   display: 'flex',
                   marginLeft: '10px',
                 }}
               >
-                06월 22일까지 모집
-                <hr
-                  style={{
-                    width: '0.01px',
-                    height: '10px',
-                    marginLeft: '5px',
-                    marginTop: '1px',
-                  }}
-                />
-                <a style={{ marginRight: '37%' }}>2/3 팀</a>
+                06월 22일까지 모집 | 2/3팀
               </h4>
             </div>
           </div>
