@@ -1,16 +1,15 @@
-import React, { useState } from "react";
-import { useEffect } from "react";
-import CheckBox from "./CheckBox";
-import styles from "./userMap.module.css";
-import mappin from "../asset/images/map-pin.png";
-import infomodal_2 from "../asset/images/infomodal_2.png";
-import infomodal_3 from "../asset/images/infomodal_3.png";
-import chatbot from "../asset/images/chat-bot.png";
-import ChatBot from "./ChatBot";
+import React, { useState } from 'react';
+import { useEffect } from 'react';
+import CheckBox from './CheckBox';
+import styles from './userMap.module.css';
+import mappin from '../asset/images/map-pin.png';
+import infomodal_2 from '../asset/images/infomodal_2.png';
+import infomodal_3 from '../asset/images/infomodal_3.png';
+import chatbot from '../asset/images/chat-bot.png';
+import ChatBot from './ChatBot';
 interface Props {
   className?: string;
   white?: boolean;
-  onChange: any;
 }
 
 declare global {
@@ -18,7 +17,7 @@ declare global {
     kakao: any;
   }
 }
-const UserMap: React.FC<Props> = ({ onChange }) => {
+const UserMap: React.FC<Props> = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [visible, setVisible] = useState(false);
   // const ChangeStatus = () => {
@@ -31,7 +30,7 @@ const UserMap: React.FC<Props> = ({ onChange }) => {
   useEffect(() => {
     var infowindow = new window.kakao.maps.InfoWindow({ zIndex: 1 });
 
-    const container = document.getElementById("myMap");
+    const container = document.getElementById('myMap');
     var map = new window.kakao.maps.Map(container, {
       center: new window.kakao.maps.LatLng(37.55743, 126.92696), // 중심 좌표
       level: 5,
@@ -53,7 +52,7 @@ const UserMap: React.FC<Props> = ({ onChange }) => {
       });
       marker.setMap(map);
 
-      window.kakao.maps.event.addListener(marker, "click", function () {
+      window.kakao.maps.event.addListener(marker, 'click', function () {
         if (!selectedMarker || marker != selectedMarker) {
           !!selectedMarker && selectedMarker.setImage(markerImage);
 
@@ -76,7 +75,7 @@ const UserMap: React.FC<Props> = ({ onChange }) => {
   }, []);
 
   return (
-    <div style={{ position: "relative", height: "80%" }}>
+    <div style={{ position: 'relative', height: '80%' }}>
       <div id="myMap" className={styles.map}></div>
       <div className={styles.checkbox_container}>
         <CheckBox text="기획 공연" />
@@ -85,15 +84,15 @@ const UserMap: React.FC<Props> = ({ onChange }) => {
       <img
         className={modalOpen ? styles.chatbot_up : styles.chatbot_down}
         src={chatbot}
-        onClick={() => onChange(!visible)}
+        // onClick={() => onChange(!visible)}
       />
       <div
         className={modalOpen ? styles.modal_open : styles.modal_close}
         style={{
-          backgroundColor: "white",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
+          backgroundColor: 'white',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
         }}
       >
         <text style={{ marginTop: 21, marginBottom: 24, fontSize: 20 }}>

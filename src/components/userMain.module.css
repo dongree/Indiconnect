@@ -7,6 +7,7 @@
   justify-content: space-between;
   margin-left: 16px;
   margin-right: 16px;
+  margin-top: 10px;
 }
 .div_header text {
   font-size: 22px;
@@ -19,6 +20,7 @@
   padding-bottom: 24px;
   border-bottom-color: gray;
   border-bottom-width: 1px;
+  overflow-x: scroll;
 }
 .div2_imgcontainer {
   display: flex;
@@ -76,4 +78,9 @@
   left: 0px;
   top: calc(100% - 130px);
   z-index: 1;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
 }

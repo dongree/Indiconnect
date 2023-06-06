@@ -19,7 +19,7 @@ export default function Home2() {
   return (
     <>
       <HomeHeader />
-      <div className="my-space">
+      <div style={{ paddingLeft: '10px', paddingRight: '10px' }}>
         <h3 style={{ padding: '2%' }}>나의 공연장</h3>
         <div className="space-hangang" style={{ display: 'flex' }}>
           <div className="imgimg" style={{ marginLeft: '10px' }}>

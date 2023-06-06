@@ -1,0 +1,21 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 0 4px;
+  border-radius: 50%;
+  text-decoration-line: none;
+  color: white;
+  background-color: black;
+}

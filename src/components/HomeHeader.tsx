@@ -14,10 +14,7 @@ const HomeHeader: React.FC<Props> = ({}) => {
   return (
     <div className={styles.header}>
       <img src={menu} alt="menu" />
-      <Link to="/home2">
-        <img src={logo} alt="logo" />
-      </Link>
-
+      <img src={logo} alt="logo" />
       <img src={search} alt="search" />
     </div>
   );
