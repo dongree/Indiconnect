@@ -1,46 +1,21 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![ic1](https://github.com/dongree/Indiconnect/assets/68095803/38216215-5527-4b27-b74b-d7d1113d3155)
+![ic2](https://github.com/dongree/Indiconnect/assets/68095803/d7140f9f-e289-4cbb-b7ac-84c9a52e80fc)
+![ic3](https://github.com/dongree/Indiconnect/assets/68095803/c999e4a6-93f7-4657-aab2-a0f98a162466)
+![ic4](https://github.com/dongree/Indiconnect/assets/68095803/926c1596-53ea-42d7-b98d-126b6ce0b6c8)
+![ic5](https://github.com/dongree/Indiconnect/assets/68095803/5786804e-20a1-408f-bdf2-2d742890d5f7)
+![ic6](https://github.com/dongree/Indiconnect/assets/68095803/928b0b18-51ef-4483-b04e-7e7425fe4130)
+![ic7](https://github.com/dongree/Indiconnect/assets/68095803/5f825e8f-271f-45a5-a2ae-8f561036cade)
+![ic8](https://github.com/dongree/Indiconnect/assets/68095803/8fc92e78-9738-42a8-b24b-d68f1c091990)
+![ic9](https://github.com/dongree/Indiconnect/assets/68095803/98d19555-e779-4824-bcbc-1201a2069fc8)
+![ic10](https://github.com/dongree/Indiconnect/assets/68095803/be363897-00a6-42eb-966c-ee06a54294fd)
+![ic11](https://github.com/dongree/Indiconnect/assets/68095803/5943a7cc-ce5b-4e05-aa54-a1339e275d78)
+![ic12](https://github.com/dongree/Indiconnect/assets/68095803/e0342afd-a9d2-4dbc-9ba0-352dd599690d)
+![ic13](https://github.com/dongree/Indiconnect/assets/68095803/e99ad625-3130-4371-8eca-1f7d34aed096)
+![ic14](https://github.com/dongree/Indiconnect/assets/68095803/2dc4b21b-31d3-4ef9-9d67-3fb5459d4edf)
+![ic15](https://github.com/dongree/Indiconnect/assets/68095803/2318ae67-cca2-4b3f-9688-70f1b6aa4ff8)
+![ic16](https://github.com/dongree/Indiconnect/assets/68095803/08334bff-22c5-4692-8bdc-4ce247ccf711)
+![ic17](https://github.com/dongree/Indiconnect/assets/68095803/ee26a48e-4c42-47d6-aec5-4c14807a55ea)
+![ic18](https://github.com/dongree/Indiconnect/assets/68095803/728393e9-6bb2-411e-b9b4-4ed2a73cd491)
+![ic19](https://github.com/dongree/Indiconnect/assets/68095803/eed5c261-8da9-41ff-a6ab-40f50941f566)
+![ic20](https://github.com/dongree/Indiconnect/assets/68095803/6c196c00-05f6-4937-b615-876af2eedded)
+![ic21](https://github.com/dongree/Indiconnect/assets/68095803/e9e90efc-8797-4601-991b-bd4001565177)
